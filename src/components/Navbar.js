@@ -9,8 +9,8 @@ const Navbar = ({updateCategory}) => {
       <div className="menuCategory">
         <button onClick={() => updateCategory("all")}>All</button>
         <button onClick={() => updateCategory("breakfast")}>Breakfast</button>
-        <button onClick={() => updateCategory("lunch")}>ALunchll</button>
-        <button onClick={() => updateCategory("dinner")}>Dinner</button>
+        <button onClick={() => updateCategory("lunch")}>Lunch</button>
+        <button onClick={() => updateCategory("shakes")}>Shakes</button>
       </div>
     </div>
   );
